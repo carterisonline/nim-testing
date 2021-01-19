@@ -1,0 +1,6 @@
+#cc = gcc
+cc = clang
+#clang.options.linker = "-ldl"
+clang.options.linker = "-flto -B /homme/carter/.ld -ldl"
+#clang.options.speed = "-O3"
+clang.options.speed = "-O4 -flto -B /home/carter/.ld"
